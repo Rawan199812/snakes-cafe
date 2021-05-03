@@ -38,7 +38,7 @@ print("""***********************************
 def resturant():
     menu=["Wings","Cookies","Spring Rolls","Salmon","Steak","Meat Tornado","A Literal Garden","Ice Cream","Cake","Pie","Coffee","Tea","Unicorn Tears"]
     order = []
-    orders= input(' ')
+    orders= input('>')
       
     while orders != 'quit':
         if orders in menu:
